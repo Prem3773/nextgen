@@ -1,0 +1,10 @@
+.kg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("IMG.jpg") WI;
+    background-size: cover;
+    text-align: center;
+    
+}

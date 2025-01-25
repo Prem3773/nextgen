@@ -1,0 +1,38 @@
+.hotel{
+    display: flex;
+    justify-content: center;
+}
+.entrance{
+    display: flex;
+    justify-content: center;
+}
+
+.foodmenu{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+}
+
+

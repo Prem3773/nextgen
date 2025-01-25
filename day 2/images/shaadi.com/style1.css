@@ -1,0 +1,16 @@
+.newline{
+    margin-top: 8px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url();
+}
+.new{
+    display: flex;
+    justify-content:
+     center;
+
+}

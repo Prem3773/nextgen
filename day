@@ -1,0 +1,19 @@
+<!-- ...existing code... -->
+<label for="zodiac">Zodiac Sign</label><br>
+<input type="text" id="zodiac" name="zodiac"><br>
+
+<label for="height">Height</label><br>
+<input type="text" id="height" name="height"><br>
+
+<label for="weight">Weight</label><br>
+<input type="text" id="weight" name="weight"><br>
+
+<label for="education">Education</label><br>
+<input type="text" id="education" name="education"><br>
+
+<label for="occupation">Occupation</label><br>
+<input type="text" id="occupation" name="occupation"><br>
+
+<label for="hobbies">Hobbies</label><br>
+<input type="text" id="hobbies" name="hobbies"><br>
+<!-- ...existing code... -->

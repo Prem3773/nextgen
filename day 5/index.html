@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+
+    <h1> Addition of 2 number</h1>
+    <form >
+        <input type="number"  id="no1" placeholder="first no ">
+        <input type="number"  id="no2" placeholder="second no ">
+        <input type="button"  onclick="add()" value="Addition">
+        <input type="button"  onclick="sub()" value="subtraction">
+        <input type="button"  onclick="mul()" value="multiply">
+        <h1  > ADD RESULT :  </h1>
+        <h1 id="rt"> </h1>
+        <script>
+            function add(){
+                let no1 = document.getElementById("no1").value
+                let no2 = document.getElementById("no2").value
+                console.log(typeof no1)
+            var num1 = parseInt(no1)
+            var num2 = parseInt(no2)
+            console.log(typeof num1)
+
+            let result = (num1+num2)
+            
+            document.getElementById('rt').innerText = result ;
+
+        }
+        function sub(){
+                let no1 = document.getElementById("no1").value
+                let no2 = document.getElementById("no2").value
+                console.log(typeof no1)
+            var num1 = parseInt(no1)
+            var num2 = parseInt(no2)
+            console.log(typeof num1)
+
+            let result = (num1-num2)
+            
+            document.getElementById('rt').innerText = result ;
+
+        } function mul(){
+                let no1 = document.getElementById("no1").value
+                let no2 = document.getElementById("no2").value
+                console.log(typeof no1)
+            var num1 = parseInt(no1)
+            var num2 = parseInt(no2)
+            console.log(typeof num1)
+
+            let result = (num1*num2)
+            
+            document.getElementById('rt').innerText = result ;
+            
+        }
+        
+        
+        
+        </script>
+        
+        
+        
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // // let km = 1 
+// //  let mile = km*0.621
+// //  console.log(km + "km ="+ mile + " miles" )
+//             function kmtomfunction()
+//             {
+//                 // alert("button is pressed")
+//                 let km = 1
+//                 //  let result = km*0.621
+//                 let miles = document.getElementById('km').value;
+//                  let result = miles*0.621
+//                 console.log(result)
+//                 document.getElementById('rt').innerText= result;
+//                        } -->
+            
+            
+
+
+
+</body>
+</html>

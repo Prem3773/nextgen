@@ -1,0 +1,49 @@
+what is css  ?
+CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.
+it allows you to style your web pages by specifying things like fonts, colors, layout, and spacing
+
+explain how css is used in a website with 2 example ?
+1 CSS is used to make a web page visually appealing. For a basic web page with a title and a paragraph, you can use CSS to set a specific font style, background color, and text color. You can also center the title and adjust the font size and spacing of the paragraph. This helps make the web page look clean and organized, making it easier for users to read and navigate.
+
+2 CSS is used to create a navigation bar with specific styles like background color, link spacing, text color, and hover effects. It improves user navigation and interaction.
+
+features of css
+1 Separation of Content and Style
+2 color 
+3 dimension 
+4 advanced animation 
+5 position 
+6 flex box 
+7 backhround images 
+8 responsive images
+
+box model
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px```css
+ width: 50%;
+}
+
+/* Flexbox Example */
+.flexbox-example {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Grid Example */
+.grid-example {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+```
+```;
+  margin: 20px;
+}
+layout techniques
+float 
+flexbox 
+grid 

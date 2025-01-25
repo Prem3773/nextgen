@@ -1,0 +1,33 @@
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(178, 221, 221);
+    border-radius: 20%;
+    
+}
+.head1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 221, 221);
+    border-radius: 20%;
+    
+}
+
+.enter{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
